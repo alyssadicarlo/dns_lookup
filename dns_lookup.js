@@ -11,7 +11,7 @@ input.question("Domain Name: ", (domain) => {
         if (error !== null) {
             console.log(error);
         }
-        console.log(address);
+        console.log(`IP Address: ${address}`);
     });
     input.close();
 });
